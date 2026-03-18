@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <header>
+        <h1>Tabelas no HTML5</h1>
+    </header>
+    <main>
+
+      <h3>Estrutura miníma de uma tabela</h3>
+
+        <table border="1">
+            <!-- linha1 -->
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+                <td>Dado 4</td>
+            </tr>
+            <!-- linha 2 -->
+            <tr>
+               
+                <td>Dado 5</td>
+                <td>Dado 6</td>
+                <td>Dado 7</td>
+                <td>Dado 8</td>
+            </tr>
+        </table>
+
+        <h3>Tabela com cabeçalho</h3>
+
+        <table border="1">
+            <th>Produto</th>
+            <th>Preço</th>
+            <tr>
+                <td>Notebook</td>
+                <td>R$ 3.000,00</td>
+            </tr>
+        </table>
+
+         <h3>Tabela com Titulo</h3>
+
+         <table border="1">
+            <caption>Tabela de Preços</caption>
+            <tr>
+                <th>Serviço</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <td>Pintura Residencial</td>
+                <td>R$ 2.500,00</td>
+            </tr>
+         </table>
+
+         <h3>Tabela com estrutura semântica</h3>
+
+         <table border="1">
+            <caption>Vendas do mês</caption>
+            <thead>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mouse</td>
+                    <td>2</td>
+                    <td>R$ 30,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td>R$ 60,00</td>
+                </tr>
+            </tfoot>
+         </table>
+
+         <h3>Mesclando linhas</h3>
+
+          <table border="1">
+            <caption>Vendas do mês</caption>
+            <thead>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Mouse</td>
+                    <td>2</td>
+                    <td>R$ 30,00</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>R$ 25,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td>R$ 560,00</td>
+                </tr>
+            </tfoot>
+         </table>
+
+         <h3>Tabela com atributo Scope</h3>
+
+         <table border= "1">
+            <caption>Notas dos alunos por disciplinas</caption>
+            <thead>
+                <tr>
+                    <th scope="col"> Aluno</th>
+                    <th scope="col">Desenvolvimento Web</th>
+                    <th scope="col">Design Digital</th>
+                    <th scope="col">Banco de Dados</th>
+                    <th scope="col">Algoritimos</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <th scope="row">Ana</th>
+                        <th>8.5</th>
+                        <th>8.0</th>
+                        <th>6.5</th>
+                        <th>4.5</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Maria</th>
+                        <th>8.5</th>
+                        <th>6.0</th>
+                        <th>6.2</th>
+                        <th>4.9</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">João</th>
+                        <th>9.5</th>
+                        <th>10.0</th>
+                        <th>6.0</th>
+                        <th>2.5</th>
+                    </tr>
+                </tbody>            
+            </thead>
+         </table>
+         
+    </main>
+    
+</body>
+</html>
