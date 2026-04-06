@@ -1,0 +1,40 @@
+body{
+    font-family: Verdana;
+    background-color: rgb(41, 46, 46);
+    color: white;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1{
+    color: aqua;
+    font-size: 32px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid aqua;
+}
+
+h1{
+    color: aqua;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.caixa{
+    width: 530px;
+    background-color: rgb(41, 46, 46);
+    padding: 30px;
+    text-align: center;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.caixa:hover{
+    background-color: aqua;
+    color: rgb(41, 46, 46);
+    transform: scale(1.05);
+    box-shadow: 8px 8px 16px rgba(140, 201, 228, 0.5);
+}
