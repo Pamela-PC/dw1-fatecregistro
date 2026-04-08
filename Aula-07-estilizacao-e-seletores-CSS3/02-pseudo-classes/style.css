@@ -31,10 +31,54 @@ h1{
     transition: all 0.3s ease;
     cursor: pointer;
 }
+/* pseudo classes - adiciona funcionalidades ao seletores */
 
+/* hover */
 .caixa:hover{
     background-color: aqua;
     color: rgb(41, 46, 46);
     transform: scale(1.05);
     box-shadow: 8px 8px 16px rgba(140, 201, 228, 0.5);
+}
+.btn-download{
+    background-color: aqua;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* padding: 15px(espaçamento vertical) 30px(espaçamento horizontal) */
+
+.btn-download:hover{
+    background-color: rgb(6, 9, 10);
+    color: aqua;
+}
+
+/* :active */
+.btn-download:active{
+    background-color: antiquewhite;
+    transform: scale(0.9px);
+    color: rgb(41, 46, 46);
+}
+
+/* :focus */
+input{
+    /* largura máxima do elemento */
+    max-width: 400px;
+    padding: 12px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+input:focus{
+   outline: none;
+   border-color: aqua;
+   box-shadow: 0 0 10px rgba(0,255,255);
+   background-color: black;
+
 }

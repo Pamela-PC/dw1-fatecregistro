@@ -1,0 +1,65 @@
+body{
+    font-family: verdana;
+    background-color: antiquewhite;
+    color: rgb(143, 87, 15);
+    padding: 20px;
+    line-height: 1.6;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgb(243, 200, 145);
+    border-radius: 5px
+
+}
+
+/* pseudo-elemento ::before */
+.antes::before{
+    content: "➤ ";
+    color: rgb(143, 87, 15);
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 10px;
+}
+/* ::after */
+.depois::after{
+    content: " ✓";
+    color: rgb(143, 87, 15);
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Citaçãp estilizada com ::before e ::after */
+.citacao{
+    background-color: rgb(243, 200, 145);
+    border-left: 5px solid rgb(143, 87, 15);
+    font-style: italic;
+    font-size: 20px;
+    margin: 20px 0px;
+    padding: 30px 40px;
+    max-width: 450px;
+    position: relative;
+}
+
+.citacao::before{
+    content: '"';
+    top:-20px;
+    left:0px;
+    font-size: 80px;
+    color: rgb(143, 87, 15);
+    opacity: 0.5;
+    position: absolute;
+}
+
+.citacao::after{
+    content: '"';
+    bottom:-50px;
+    right:50px;
+    font-size: 80px;
+    color: rgb(143, 87, 15);
+    opacity: 0.5;
+    position: absolute;
+}
