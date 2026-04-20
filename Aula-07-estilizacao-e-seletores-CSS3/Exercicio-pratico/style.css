@@ -1,0 +1,78 @@
+body{
+    background-color:#a7ebf2;
+    color: #011c40;
+    font-family: verdana;
+    padding: 20px;
+}
+
+h1{
+    background-color:  #011c40;
+    color: #a7ebf2;
+    font-family: Verdana;
+    font-size: 32px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#sobre{
+    color: #011c40;
+    font-family: verdana;
+    font-size: 24px;
+}
+
+.lista{
+    font-family: verdana;
+    font-size: 20px;
+    color: #132e53;
+}
+
+ul>li{
+    font-family: verdana;
+    font-size: 18px;
+    color: #011c40;
+}
+.habilidade
+{
+    background-color:#011c40;
+    color: #a7ebf2;
+    font-family: Verdana;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.habilidade:hover{
+    background-color:#023859;
+    color: #6d999f;
+    font-family: Verdana;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h4{
+    color: #53949a;
+    font-family: Verdana;
+    font-size: 18px;
+}
+h4::before{
+    content: "➤ ";
+    color: #53949a;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.rodape{
+    background-color: #011c40;
+    color: #a7ebf2;
+
+}
+
+.copyright + .extra{
+     color: #a7ebf2;
+     font-family: Verdana;
+     font-style: italic;
+}
