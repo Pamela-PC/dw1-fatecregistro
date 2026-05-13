@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal com Bootstrap</title>
+    <!-- Importação do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- BOTÃO QUE ABRE O MODAL -->
+    <button type="button" class="btn btn-primary my-4 mx-4" data-bs-toggle="modal" data-bs-target="#JanelaModal">
+        Abrir
+    </button>
+
+    <!-- MODAL -->
+     <div id="JanelaModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- TÍTULO DO MODAL - CABEÇALHO -->
+                <div class="modal-header">
+                    <h3 class="modal-title">Título do modal</h3>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <!-- TEXTO DO MODAL - CORPO -->
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, impedit odio pariatur soluta, quas fuga sapiente id explicabo molestias nemo, nulla officia veniam unde? Voluptatem dolorum voluptate ut at eos!
+                    Unde nam, commodi pariatur eos reiciendis, ullam aliquam doloribus aliquid laudantium molestias inventore dicta! Rem nesciunt vitae veniam itaque omnis, numquam quibusdam quod, asperiores, illo facere dignissimos ipsum consectetur culpa?                    
+                </div>
+                <!-- BOTÕES DO MODAL - FOOTER -->
+                 <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Aceitar</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                 </div>
+            </div>
+        </div>
+     </div>
+</body>
+<!-- Importando o Javascript do Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+</html>
