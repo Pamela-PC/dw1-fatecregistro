@@ -1,25 +1,20 @@
-//Javascript
-//Variáveis
-//variáveis podem ser declaradas de três formas, VAR, LET e CONST
-//Var: no geral, evite seu uso, pode não ser muito seguro.
-//LET: utilize quando for necessário reatribuir o valor da variável
-//CONST>: utilize quando Não for necessário reatribuir o valor da variável
-
-//var
-var nome = "Diego";
-var numero = 23;
-nome = "João"
-var nome ="josé"
+// Javascript
+// VARIÁVEIS
+/* Variáveis podem ser declaradas de 3 formas: VAR, LET e CONST */
+// VAR: No geral, evite o seu uso, pode não ser muito seguro. Ele pode ser redeclarado e seu valor reatribuído.
+// LET: Utilize quando for necessário reatribuir o valor da variável
+// CONST: Utilize quando NÃO precisar reatribuir o valor da variável
+// VAR:
+var nome = "Matheus";
+nome = "João";
+var nome = "José"
+// LET:
+let cidade = "Registro"
 cidade = "Sete Barras"
-
-//LET
-let cidade="Registro";
-cidade = "sete barras";
-//let cidade -> Isso não pode
-
-//CONST
-
-const user = "pedro@ElementInternals.com"
+// let cidade -> isso não pode
+// CONST: 
+const user = "pedro@email.com"
+// user = "pedro@gmail.com" -> não poderia
 
 // FUNÇÕES DO ELEMENTO WINDOW (navegador)
 // Disparando uma janela de alerta no site
@@ -44,3 +39,12 @@ if (confirmacao == true) {
         document.write("Você é menor de idade!")
     }
 }
+
+//CRIE UM SITE COM UM SCRIPT QUE PERGUNTE A IDADE DO USUÁRIO. SE A IDADE FOR MAIOR QUE 18. ELE MOSTRA NO SITE: "VOCÊ É MAIOR DE IDADE.", SE NÃO ELE MOSTRA: "VOCÊ É MENOR DE IDADE."
+// if (idade >= 18) {
+
+// } else
+// ...
+// }
+
+
